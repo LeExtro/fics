@@ -1,0 +1,16 @@
+/* font setup */
+@font-face {
+    font-family: 'Helvetica Now';
+    src: url(../fonts/HelveticaNowText-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Helvetica Now';
+    src: url(../fonts/HelveticaNowText-Bold.ttf);
+    font-weight: bold;
+}
+
+/* actual css */
+.return {
+    font-family: 'Helvetica Now', serif;
+}

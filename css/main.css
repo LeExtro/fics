@@ -1,0 +1,39 @@
+/* font setup */
+@font-face {
+    font-family: 'Helvetica Now';
+    src: url(../fonts/HelveticaNowText-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Helvetica Now';
+    src: url(../fonts/HelveticaNowText-Bold.ttf);
+    font-weight: bold;
+}
+
+/* actual css */
+html {
+    font-family: 'Helvetica Now', serif;
+}
+
+.title {
+    padding: 4vh;
+}
+
+.home-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.fic-div {
+    padding: 20px;
+    margin: 10px;
+    height: 25vh;
+    background: rgb(220, 220, 220);
+    transition: background 0.5s;
+}
+
+.fic-div:hover {
+    background: rgb(190, 190, 190);
+}
