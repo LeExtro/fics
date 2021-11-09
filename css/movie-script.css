@@ -1,0 +1,34 @@
+.screenbox {
+    list-style: none;
+    max-width: 60rem;
+    background: #eee;
+    border: 1px solid #333;
+    padding: 5px 14px;
+    display: block;
+    margin: 0 auto;
+}
+
+.screenbox li:not(.title) { font: 16px/18px Courier, fixed; }
+
+.screenbox li.sceneheader { font-weight: bold;}
+
+.sceneheader, .action, .character { padding-top: 1.5ex; }
+
+.action { padding-right: 5%; }
+
+.character { margin-left: 40%; }
+
+.dialogue { margin-left: 25%; padding-right: 25%; }
+
+.parenthetical { margin-left: 32%; padding-right: 30%; }
+
+/* special case: dialogue followed by a parenthetical; the extra line needs to be suppressed */
+
+.dialogue + .parenthetical { padding-bottom: 0; }
+
+.transition { padding-top: 3ex; text-align: right; padding-bottom: 1.5ex; }
+
+.title { font: bold 2rem Courier, fixed; text-align: center; padding-bottom: 3ex; padding-top: 1.5ex; }
+
+/* actual css */
+.return { font-family: 'Helvetica Now', serif; }

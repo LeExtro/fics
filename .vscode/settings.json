@@ -9,5 +9,6 @@
         "haha",
         "mari",
         "minmax"
-    ]
+    ],
+    "cmake.configureOnOpen": false
 }
