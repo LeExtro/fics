@@ -10,9 +10,15 @@
 
 .screenbox li:not(.title) { font: 16px/18px Courier, fixed; }
 
-.screenbox li.sceneheader { font-weight: bold;}
+.screenbox a { color: black; }
 
-.sceneheader, .action, .character { padding-top: 1.5ex; }
+.screenbox li.sceneheader, .screenbox li.scenenumber { font-weight: bold; padding-top: 1.5ex;  padding-bottom: 1.5ex;}
+
+.screenbox li:not(.sceneheader, .scenenumber, .parenthetical, .transition, .title, .character) { clear: both; padding-top: 0.5em; padding-bottom: 1em; }
+
+.sceneheader { float: left; }
+
+.scenenumber { float: right; }
 
 .action { padding-right: 5%; }
 
@@ -26,9 +32,10 @@
 
 .dialogue + .parenthetical { padding-bottom: 0; }
 
-.transition { padding-top: 3ex; text-align: right; padding-bottom: 1.5ex; }
+.transition { padding-top: 1.5ex; text-align: right; padding-bottom: 1.5ex; }
 
 .title { font: bold 2rem Courier, fixed; text-align: center; padding-bottom: 3ex; padding-top: 1.5ex; }
 
 /* actual css */
+
 .return { font-family: 'Helvetica Now', serif; }
