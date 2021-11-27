@@ -12,7 +12,7 @@
 
 .screenbox a { color: black; }
 
-.screenbox li.sceneheader, .screenbox li.scenenumber { font-weight: bold; padding-top: 1.5ex;  padding-bottom: 1.5ex;}
+.screenbox li.sceneheader, .screenbox li.scenenumber { font-weight: bold; padding-top: 1.5ex;  padding-bottom: 1.5ex; }
 
 .screenbox li:not(.sceneheader, .scenenumber, .parenthetical, .transition, .title, .character) { clear: both; padding-top: 0.5em; padding-bottom: 1em; }
 
